@@ -193,7 +193,7 @@ public class ProductPageController : Umbraco.Web.Mvc.RenderMvcController
 ```
 and in our template
 ```csharp
-@inherits Umbraco.Web.Mvc.UmbracoViewPage<MyProductModel>
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<MyProductViewModel>
 @{
 Layout = "Master";
 }
